@@ -1,0 +1,1050 @@
+LOCUS       PZ123656                4219 bp    DNA     linear   PRI 24-MAY-2026
+DEFINITION  Homo sapiens MHC class I antigen (HLA-C) gene, HLA-C*16NEW allele,
+            complete cds.
+ACCESSION   PZ123656
+VERSION     PZ123656.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4219)
+  AUTHORS   Pirri,A., Bicalho,Md.G. and Araujo-Souza,P.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAR-2026) Genetics, Laboratorio de Imunogenetica e
+            Histocompatibilidade da Universidade Federal do Parana (LIGH-UFPR),
+            R. Francisco H. dos Santos, 100 - Centro Politecnico - Setor de
+            Ciencias Biologicas- Dep. Genetica Sl31, Curitiba, Parana 81530990,
+            Brazil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: TSV v. 3.2
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4219
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+     gene            1..4219
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+     mRNA            join(1..568,699..968,1215..1490,2078..2353,2475..2594,
+                     3034..3066,3174..3221,3386..4219)
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /product="MHC class I antigen"
+     exon            1..568
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=1
+     5'UTR           1..495
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+     CDS             join(496..568,699..968,1215..1490,2078..2353,2475..2594,
+                     3034..3066,3174..3221,3386..3390)
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /note="E6-2564: base change G to A"
+                     /codon_start=1
+                     /product="MHC class I antigen"
+                     /protein_id="YEV20286.1"
+                     /translation="MRVMAPRTLILLLSGALALTETWACSHSMRYFYTAVSRPGRGEP
+                     RFIAVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSL
+                     RNLRGYYNQSEAGSHTLQWMYGCDLGPDGRLLRGYDQSAYDGKDYIALNEDLRSWTAA
+                     DTAAQITQRKWEAARAAEQQRAYLEGTCVEWLRRYLENGKETLQRAEHPKTHVTHHLV
+                     SDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSG
+                     EEQRYTCHVQHEGLPEPLTLRWEPSSQPTIPIVGIVAGLAVLAVLAVLGAVVAVVMCR
+                     RKSSGGKGGSCSQAASSNSAQGSDESLIACKA"
+     exon            699..968
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=2
+     exon            1215..1490
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=3
+     exon            2078..2353
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=4
+     exon            2475..2594
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=5
+     exon            3034..3066
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=6
+     exon            3174..3221
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=7
+     exon            3386..4219
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+                     /number=8
+     3'UTR           3391..4219
+                     /gene="HLA-C"
+                     /allele="HLA-C*16NEW"
+ORIGIN      
+        1 ttattttgct ggatgtagtt taatattacc tgaggtaagg taaggcaaag agtgggaggc
+       61 agggagtcca gttcagggac ggggattcca ggagaagtga aggggaaggg gctgggcgca
+      121 gcctgggggt ctctccctgg tttccacaga cagatccttg gccaggactc aggcacacag
+      181 tgtgacaaag atgcttggtg taggagaaga gggatcagga cgaagtccca ggtcccgggc
+      241 ggggctctca gggtctcagg ctccaagggc cgtgtctgca ctggggaggc gccgcgttga
+      301 ggattctcca ctcccctgag tttcacttct tctcccaacc tgcgtcgggt ccttcttcct
+      361 gaatactcat gacgcgtccc caattcccac tcccattggg tgtcgggttc tagagaagcc
+      421 aatcagcgtc tccgcagtcc cggttctaaa gtccccagtc acccacccgg actcggattc
+      481 tccccagacg ccgagatgcg ggtcatggcg ccccgaaccc tcatcctgct gctctcggga
+      541 gccctggccc tgaccgagac ctgggcctgt gagtgcgggg ttgggaggga aacggcctct
+      601 gcggagagga gcgaggggcc cgcccggcga gggcgcagga cccggggagc cgcgcaggga
+      661 ggagggtcgg gcgggtctca gcccctcctc gcccccaggc tcccactcca tgaggtattt
+      721 ctacaccgcc gtgtcccggc ccggccgcgg agagccccgc ttcatcgcag tgggctacgt
+      781 ggacgacacg cagttcgtgc ggttcgacag cgacgccgcg agtccaagag gggagccgcg
+      841 ggcgccgtgg gtggagcagg aggggccgga gtattgggac cgggagacac agaagtacaa
+      901 gcgccaggca cagactgacc gagtgagcct gcggaacctg cgcggctact acaaccagag
+      961 cgaggccggt gagtgacccc ggcccggggc gcaggtcacg acccctcccc atcccccacg
+     1021 gacggcccgg gtcgccccga gtctcccggt ctgagatcca ccccgaggct gcggaacccg
+     1081 cccagaccct cggccggaga gagccccagt cacctttacc cggtttcatt ttcagtttag
+     1141 gccaaaatcc ccgcgggttg gtcggggctg gggcggggct cgcgggacgg ggctgaccac
+     1201 gggggcgggg ccagggtctc acaccctcca gtggatgtat ggctgcgacc tggggcccga
+     1261 cgggcgcctc ctccgcgggt atgaccagtc cgcctacgac ggcaaggatt acatcgccct
+     1321 gaacgaggac ctgcgctcct ggaccgccgc ggacacggcg gctcagatca cccagcgcaa
+     1381 gtgggaggcg gcccgtgcgg cggagcagca gagagcctac ctggagggca cgtgcgtgga
+     1441 gtggctccgc agatacctgg agaacgggaa ggagacgctg cagcgcgcgg gtaccagggg
+     1501 cagtggggag ccttccccat ctcctgtaga tctcccggga tggcctccca cgaggagggg
+     1561 aggaaaatgg gatcagcgct agaatatcgc cctcccttga atggagaatg ggatgagttt
+     1621 tcctgagttt cctctgaggg ccccctctgc tctctaggac aattaaggga tgaagtcctt
+     1681 gaggaaatgg aggggaagac agtccctgga atactgatca ggggtcccct ttgaccactt
+     1741 tgaccactgc agcagctgtg gtcaggctgc tgacctttct ctcaggcctt gttctctgcc
+     1801 tcatgctcaa tgtgtttgaa ggtttgattc cagcttttct gagttcttca gcctccactc
+     1861 aggtcaggac cagaagtcgc tgttcctccc tcagagacta gaactttcca atgaatagga
+     1921 gattatccca ggtgcctgtg tccaggctgg cgtctgggtt ctgtgccccc ttccccaccc
+     1981 caggtgtcct gtccattctc aggatggtca catgggcgct gttggagtgt cgcaagagag
+     2041 atacaaagtg tctgaatttt ctgactcttc ccgtcagaac acccaaagac acacgtgacc
+     2101 caccatctcg tctctgacca tgaggccacc ctgaggtgct gggccctggg cttctaccct
+     2161 gcggagatca cactgacctg gcagcgggat ggcgaggacc aaactcagga caccgagctt
+     2221 gtggagacca ggccagcagg agatggaacc ttccagaagt gggcagctgt ggtggtgcct
+     2281 tctggagaag agcagagata cacgtgccat gtgcagcacg aggggctgcc ggagcccctc
+     2341 accctgagat ggggtaagga gggggatgag gggtcatgtg tcttctcagg gaaagcagaa
+     2401 gtcctggagc ccttcagccg ggtcagggct gaggcttggg ggtcagggcc cctcaccttc
+     2461 ccctcctttc ccagagccat cttcccagcc caccatcccc atcgtgggca tcgttgctgg
+     2521 cctggctgtc ctggctgtcc tagctgtcct aggagctgtg gtggctgttg ttatgtgtag
+     2581 gaggaagagc tcaggtaggg aaggggtgag gagtggggtc tgggttttct tgtcccactg
+     2641 ggagtttcaa gccccaggta gaagtgtgcc ccacctcgtt actggaagca ccatccacac
+     2701 atgggccatc ccagcctggg accctgtgtg ccagcactta ctctgttgtg aagcacatga
+     2761 caatgaagga cagatgtatc accttgatga ttatggtgtt ggggtccttg attccagcat
+     2821 tcatgagtca ggggaaggtc cctgctaagg acagacctta ggagggcagt tgctccagaa
+     2881 cccacagctg ctttccctgt gtttcctgat cctgccctgg gtctgcagtc atagttctgg
+     2941 aaacttctct tgggtccaag actaggaggt tcccctaaga tcgcatggcc ctgcctcctc
+     3001 cctgtcccct cacagggcat tttcttccca caggtggaaa aggagggagc tgctctcaag
+     3061 ctgcgtgtaa gtgatggcag tgggcgtgtg gaggagctca cccaccccat aattcctctt
+     3121 gtcccacatc tcctgcgggc tctgaccagg tctttttttt tgttctaccc cagccagcaa
+     3181 cagtgcccag ggctctgatg agtctctcat cgcttgtaaa ggtgagattc tggggagctg
+     3241 aagtggtcgg gggtggggca gagggaaaag gcctaggtaa tggggatcct ttgattggga
+     3301 cgtttcgaat gtgtggtgag ctgttcagag tgtcatcact taccatgact gacctgaatt
+     3361 tgttcatgac tattgtgttc tgtagcctga gacagctgcc tgtgtgggac tgagatgcag
+     3421 gatttcttca cacctctcct ttgtgacttc aagagcctct ggcatctctt tctgcaaagg
+     3481 catctgaatg cgtctgcgtt cctgttagca taatgtgagg aggtggagag acagcccacc
+     3541 cccgtgtcca ccgtgacccc tgtccccaca ctgacctgtg ttccctcccc gatcatcttt
+     3601 cctgttccag agaagtgggc tggatgtctc catctctgtc tcaactttac gtgtactgag
+     3661 ctgcaacttc ttacttccct actgaaaata agaatctgaa tataaatttg ttttctcaaa
+     3721 tatttgctat gagaggttga tggattaatt aaataagtca atccctggaa gttgagagag
+     3781 caaataaaga cctgagaacc ttccagaatc cgcatgttcg ctgtgctgag tctgttgcag
+     3841 gtgggggtgg ggaaggctgt gaggagacga gtgtggacgg ggcctgtgcc tagttgctgt
+     3901 tcagttcttc atgggcttta tgtggtcagt cctcagctgg gtcaccttca ctgctccatt
+     3961 gtccttgtcc cttcagtgga aacttgtcca gcgggagctg tgaccacaga ggctcacaca
+     4021 tcgcccaggg cagccgctgc acactggagt ccctgtgctt tctgagacaa attttcagac
+     4081 ccattcagct cctgccctcc ttctagggct cctcttctgc tttggtctcc tgccctctct
+     4141 cccttccctg attccagtaa tcttcgtgct gactccaatc ccaactcatg aatctaaagc
+     4201 agagcctaat ttagattta
+//
+
+LOCUS       LC933570                3079 bp    mRNA    linear   PRI 23-MAY-2026
+DEFINITION  Homo sapiens EHMT1 mRNA for euchromatic histone lysine
+            methyltransferase 1, complete cds, clone: HP07377-RBdS132E04.
+ACCESSION   LC933570
+VERSION     LC933570.1
+KEYWORDS    FLI_CDNA.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Oshikawa,M., Tsutsui,C., Ikegami,T., Fuchida,Y., Matsubara,M.,
+            Toyama,S., Usami,R., Ohtoko,K. and Kato,S.
+  TITLE     Full-length transcriptome analysis of human retina-derived cell
+            lines ARPE-19 and Y79 using the vector-capping method
+  JOURNAL   Invest Ophthalmol Vis Sci 52 (9), 6662-6670 (2011)
+   PUBMED   21697133
+  REMARK    DOI:10.1167/iovs.11-7479
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3079)
+  AUTHORS   Murata,T., Iida,T., Sasanuma,S. and Miwa,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAY-2026) Contact:Takehide Murata RIKEN, Bioresource
+            Research Center; 3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074, Japan
+            URL :https://dna.brc.riken.jp
+COMMENT     The cDNA clone was deposited at the RIKEN BioResource Center by
+            Seishi Kato of the National Rehabilitation Center for Persons with
+            Disabilities (NRCD), and its complete nucleotide sequence was
+            determined by the RIKEN BioResource Center.
+            For cDNA clones and library availability, please contact RIKEN
+            BioResource Research Center.
+            E-mail: dnabank.brc@riken.jp
+            URL:https://dna.brc.riken.jp/
+FEATURES             Location/Qualifiers
+     source          1..3079
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /clone="HP07377-RBdS132E04"
+                     /cell_line="Y79"
+                     /cell_type="retinoblastoma"
+                     /geo_loc_name="missing: lab stock"
+                     /collection_date="missing: lab stock"
+                     /note="full-length Y79 cDNA library prepared with the
+                     vector-capping method using pGCAP10"
+     gene            1..3079
+                     /gene="EHMT1"
+     CDS             31..2814
+                     /gene="EHMT1"
+                     /codon_start=1
+                     /product="euchromatic histone lysine methyltransferase 1"
+                     /protein_id="BHX86363.1"
+                     /translation="MAAADAEAVPARGEPQQDCCVKTELLGEETPMAADEGSAEKQAG
+                     EAHMAADGETNGSCENSDASSHANAAKHTQDSARVNPQDGTNTLTRIAENGVSERDSE
+                     AAKQNHVTADDFVQTSVIGSNGYILNKPALQAQPLRTTSTLASSLPGHAAKTLPGGAG
+                     KGRTPSAFPQTPAAPPATLGEGSADTEDRKLPAPGADVKVHRARKTMPKSVVGLHAAS
+                     KDPREVREARDHKEPKEEINKNISDFGRQQLLPPFPSLHQSLPQNQCYMATTKSQTAC
+                     LPFVLAAAVSRKKKRRMGTYSLVPKKKTKVLKQRTVIEMFKSITHSTVGSKGEKDLGA
+                     SSLHVNGESLEMDSDEDDSEELEEDDGHGAEQAAAFPTEDSRTSKESMSEADRAQKMD
+                     GESEEEQESVDTGEEEEGGDESDLSSESSIKKKFLKRKGKTDSPWIKPARKRRRRSRK
+                     KPSGALGSESYKSSAGSAEQTAPGDSTGYMEVSLDSLDLRVKGILSSQAEGLANGPDV
+                     LETDGLQEVPLCSCRMETPKSREITTLANNQCMATESVDHELGRCTNSVVKYELMRPS
+                     NKAPLLVLCEDHRGRMVKHQCCPGCGYFCTAGNFMECQPESSISHRFHKDCASRVNNA
+                     SYCPHCGEESSKAKEVTIAKADTTSTVTPVPGQEKGSALEGRADTTTGSAAGPPLSED
+                     DKLQGAASHVPEGFDPTGPAGLGRPTPGLSQGPGKETLESALIALDSEKPKKLRFHPK
+                     QLYFSARQGELQKVLLMLVDGIDPNFKMEHQNKRSPLHAAAEAGHVDICHMLVQAGAN
+                     IDTCSEDQRTPLMEAAENNHLEAVKYLIKAGALVDPKDAEGSTCLHLAAKKGHYEVVQ
+                     YLLSNGQMDVNCQDDGGWTPMIWAIEYKHVDLVKLLLSKGSDINIRDNDDGTMKRGAL
+                     SRQKEEKREAEEP"
+ORIGIN      
+        1 aggggcgggg ccacgctgcg ggcccgggcc atggccgccg ccgatgccga ggcagttccg
+       61 gcgagggggg agcctcagca ggattgctgt gtgaaaaccg agctgctggg agaagagaca
+      121 cctatggctg ccgatgaagg ctcagcagag aaacaggcag gagaggccca catggctgcg
+      181 gacggtgaga ccaatgggtc ttgtgaaaac agcgatgcca gcagtcatgc aaatgctgca
+      241 aagcacactc aggacagcgc aagggtcaac ccccaggatg gcaccaacac actaactcgg
+      301 atagcggaaa atggggtttc agaaagagac tcagaagcgg cgaagcaaaa ccacgtcact
+      361 gccgacgact ttgtgcagac ttctgtcatc ggcagcaacg gatacatctt aaataagccg
+      421 gccctacagg cacagccctt gaggactacc agcactctgg cctcttcgct gcctggccat
+      481 gctgcaaaaa cccttcctgg aggggctggc aaaggcagga ctccaagcgc ttttccccag
+      541 acgccagccg ccccaccagc cacccttggg gaggggagtg ctgacacaga ggacaggaag
+      601 ctcccggccc ctggcgccga cgtcaaggtc cacagggcac gcaagaccat gccgaagtcc
+      661 gtcgtgggcc tgcatgcagc cagtaaagat cccagagaag ttcgagaagc tagagatcat
+      721 aaggaaccaa aagaggagat caacaaaaac atttctgact ttggacgaca gcagctttta
+      781 ccccccttcc catcccttca tcagtcgcta cctcagaacc agtgctacat ggccaccaca
+      841 aaatcacaga cagcttgctt gccttttgtt ttagcagctg cagtatctcg gaagaaaaaa
+      901 cgaagaatgg gaacctatag cctggttcct aagaaaaaga ccaaagtatt aaaacagagg
+      961 acggtgattg agatgtttaa gagcataact cattccactg tgggttccaa gggggagaag
+     1021 gacctgggcg ccagcagcct gcacgtgaat ggggagagcc tggagatgga ctcggatgag
+     1081 gacgactcag aggagctcga ggaggacgac ggccatggtg cagagcaggc ggccgcgttc
+     1141 cccacagagg acagcaggac ttccaaggag agcatgtcgg aggctgatcg cgcccagaag
+     1201 atggacgggg agtccgagga ggagcaggag tccgtggaca ccggggagga ggaggaaggc
+     1261 ggtgacgagt ctgacctgag ttcggaatcc agcattaaga agaaatttct caagaggaaa
+     1321 ggaaagaccg acagtccctg gatcaagcca gccaggaaaa ggaggcggag aagtagaaag
+     1381 aagcccagcg gtgccctcgg ttctgagtcg tataagtcat ctgcaggaag cgctgagcag
+     1441 acggcaccag gagacagcac agggtacatg gaagtttctc tggactccct ggatctccga
+     1501 gtcaaaggaa ttctgtcttc acaagcagaa gggttggcca acggtccaga tgtgctggag
+     1561 acagacggcc tccaggaagt gcctctctgc agctgccgga tggaaacacc gaagagtcga
+     1621 gagatcacca cactggccaa caaccagtgc atggctacag agagcgtgga ccatgaattg
+     1681 ggccggtgca caaacagcgt ggtcaagtat gagctgatgc gcccctccaa caaggccccg
+     1741 ctcctcgtgc tgtgtgaaga ccaccggggc cgcatggtga agcaccagtg ctgtcctggc
+     1801 tgtggctact tctgcacagc gggtaatttt atggagtgtc agcccgagag cagcatctct
+     1861 caccgtttcc acaaagactg tgcctctcga gtcaataacg ccagctattg tccccactgt
+     1921 ggggaggaga gctccaaggc caaagaggtg acgatagcta aagcagacac cacctcgacc
+     1981 gtgacaccag tccccgggca ggagaagggc tcggccctgg agggcagggc cgacaccaca
+     2041 acgggcagtg ctgccgggcc accactctcg gaggacgaca agctgcaggg tgcagcctcc
+     2101 cacgtgcccg agggctttga tccaacggga cctgctgggc ttgggaggcc aactcccggc
+     2161 ctttcccagg gaccagggaa ggaaaccttg gagagcgctc tcatcgccct cgactcggaa
+     2221 aaacccaaga agcttcgctt ccacccaaag cagctgtact tctccgccag gcaaggggag
+     2281 cttcagaagg tgctcctcat gctggtggac ggaattgacc ccaacttcaa aatggagcac
+     2341 cagaataagc gctctccact gcacgccgcg gcagaggctg gacacgtgga catctgccac
+     2401 atgctggttc aggcgggcgc taatattgac acctgctcag aagaccagag gaccccgttg
+     2461 atggaagcag ccgaaaacaa ccatctggaa gcagtgaagt acctcatcaa ggctggggcc
+     2521 ctggtggatc ccaaggacgc agagggctct acgtgtttgc acctggctgc caagaaaggc
+     2581 cactacgaag tggtccagta cctgctttca aatggacaga tggacgtcaa ctgtcaggat
+     2641 gacggaggct ggacacccat gatctgggcc atagagtaca agcacgtgga cctcgtgaag
+     2701 ctgctgctgt ccaagggctc tgacatcaac atccgagaca acgatgacgg caccatgaag
+     2761 agaggagccc tgagccggca gaaggaagag aagagggaag cagaggagcc ctgagctggt
+     2821 ggaaggctgt ggcgggtacc ttggaggaag agaggaggga agcaaaggca gagaacaagg
+     2881 cagaggccac ccccaggtgg ggccacctca cccaccgccc ccggagactg cgtggcgggg
+     2941 aaggcggccc tagtgtggct ggtcggcctg catgcctggg cagtttgcag cctgtccagg
+     3001 tgtcagagct gttagctctc tgatgctggt ggctgttccc cagaatggaa gcattgatta
+     3061 aatttcaagt ttgttattt
+//
+
+LOCUS       LC933284                3661 bp    mRNA    linear   PRI 22-MAY-2026
+DEFINITION  Homo sapiens EEA1 mRNA for early endosome antigen 1, complete cds,
+            clone: HP04614-ARa67B10.
+ACCESSION   LC933284
+VERSION     LC933284.1
+KEYWORDS    FLI_CDNA.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Oshikawa,M., Tsutsui,C., Ikegami,T., Fuchida,Y., Matsubara,M.,
+            Toyama,S., Usami,R., Ohtoko,K. and Kato,S.
+  TITLE     Full-length transcriptome analysis of human retina-derived cell
+            lines ARPE-19 and Y79 using the vector-capping method
+  JOURNAL   Invest Ophthalmol Vis Sci 52 (9), 6662-6670 (2011)
+   PUBMED   21697133
+  REMARK    DOI:10.1167/iovs.11-7479
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3661)
+  AUTHORS   Murata,T., Iida,T., Sasanuma,S. and Miwa,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-MAY-2026) Contact:Takehide Murata RIKEN, Bioresource
+            Research Center; 3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074, Japan
+            URL :https://dna.brc.riken.jp
+COMMENT     The cDNA clone was deposited at the RIKEN BioResource Center by
+            Seishi Kato of the National Rehabilitation Center for Persons with
+            Disabilities (NRCD), and its complete nucleotide sequence was
+            determined by the RIKEN BioResource Center.
+            For cDNA clones and library availability, please contact RIKEN
+            BioResource Research Center.
+            E-mail: dnabank.brc@riken.jp
+            URL:https://dna.brc.riken.jp/
+FEATURES             Location/Qualifiers
+     source          1..3661
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /clone="HP04614-ARa67B10"
+                     /cell_line="ARPE-19"
+                     /cell_type="retinal pigment epithelium"
+                     /geo_loc_name="missing: lab stock"
+                     /collection_date="missing: lab stock"
+                     /note="full-length ARPE-19 cDNA library prepared with the
+                     vector-capping method using pKA1U5"
+     gene            1..3661
+                     /gene="EEA1"
+     CDS             230..3409
+                     /gene="EEA1"
+                     /codon_start=1
+                     /product="early endosome antigen 1"
+                     /protein_id="BHW36574.1"
+                     /translation="MLRRILQRTPGRVGSQGSDLDSSATPINTVDVNNESSSEGFICP
+                     QCMKSLGSADELFKHYEAVHDAGNDSGHGGESNLALKRDDVTLLRQEVQDLQASLKEE
+                     KWYSEELKKELEKYQGLQQQEAKPDGLVTDSSAELQSLEQQLEEAQTENFNIKQMKDL
+                     FEQKAAQLATEIADIKSKYDEERSLREAAEQKVTRLTEELNKEATVIQDLKTELLQRP
+                     GIEDVAVLKKELVQVQTLMDNMTLERERESEKLKDECKKLQSQYASSEATISQLRSEL
+                     AKGPQEVAVYVQELQKLKSSVNELTQKNQTLTENLLKKEQDYTKLEEKHNEESVSKKN
+                     IQATLHQKDLDCQQLQSRLSASETSLHRIHVELSEKGEATQKLKEELSEVETKYQHLK
+                     AEFKQLQQQREEKEQHGLQLQSEINQLHSKLLETERQLGEAHGRLKEQRQLSSEKLMD
+                     KEQQVADLQLKLSRLEEQLKEKVTNSTELQHQLDKTKQQHQEQQALQQSTTAKLREAQ
+                     NDLEQVLRQIGDKDQKIQNLEALLQKSKENISLLEKEREDLYAKIQAGEGETAVLNQL
+                     QEKNHTLQEQVTQLTEKLKNQSESHKQAQENLHDQVQEQKAHLRAAQDRVLSLETSVN
+                     ELNSQLNESKEKVSQLDIQIKAKTELLLSAEAAKTAQRADLQNHLDTAQNALQDKQQE
+                     LNKITTQLDQVTAKLQDKQEHCSQLESHLKEYKEKYLSLEQKTEELEGQIKKLEADSL
+                     EVKASKEQALQDLQQQRQLNTDLELRATELSKQLEMEKEIVSSTRLDLQKKSEALESI
+                     KQKLTKQEEEKQILKQDFETLSQETKIQHEELNNRIQTTVTELQKVKMEKEALMTELS
+                     TVKDKLSKVSDSLKNSKSEFEKENQKGKAAILDLEKTCKELKHQLQVQMENTLKEQKE
+                     LKKSLEKEKEASHQLKLELNSMQEQLIQAQNTLKQNEKEEQQLQGNINELKQSSEQKK
+                     KQIEALQGELKIAVLQKTELENKLQQQLTQAAQELAAEKEKISVLQNNYEKSQETFKQ
+                     LQSDFYGRESELLATRQDLKANDSLQIEE"
+ORIGIN      
+        1 ggaggcgctc gcaggctgcc tagtcgttcg ctcgctctct ctcgcgtgct ccctctcgcc
+       61 gcctgtgggg aagtcggggc cgcccgagcg gccgtcgcca ccgcctcgcc ccgacctcct
+      121 tcccggtccc ctcccggccc agtccctccc gcccgcgcac cccgagtagt gagtggcccc
+      181 gcgcagggtc tggagagtca ccgcggcggc gccgggtggt ggttaaacca tgttaaggag
+      241 gattttacag aggactcctg ggagagttgg ctctcaaggt tctgatttag attcatcagc
+      301 aactcctata aacacagtgg acgtcaataa tgaaagctct tcagagggtt tcatatgtcc
+      361 ccagtgtatg aaatctcttg gatctgctga tgaacttttc aaacattatg aagctgttca
+      421 tgatgctggt aatgactcag gtcatggagg agagtctaat cttgctttga agcgagatga
+      481 tgtaacactg ctcagacaag aggtccaaga cctacaggct tcacttaagg aagaaaaatg
+      541 gtactcggaa gaattaaaga aggaattaga aaaatatcaa gggctgcagc agcaagaggc
+      601 caaacctgat gggttggtga ctgattcatc agcagaacta cagtctttgg aacagcaatt
+      661 agaagaagcc caaacagaaa attttaatat taagcaaatg aaagacttat ttgaacagaa
+      721 agcagcccaa cttgctactg aaattgcaga tataaagtca aagtatgatg aagaaaggag
+      781 tcttcgagaa gctgctgaac aaaaagtgac acgtctgaca gaagaattaa acaaagaggc
+      841 aactgtaatt caagatctga agacggaact gcttcagaga cctggtatag aagatgttgc
+      901 cgtgctaaag aaagaactgg tccaagttca aacactaatg gataacatga ccttggaacg
+      961 tgagcgagaa tctgaaaaac tcaaagatga atgcaaaaaa ttgcagtcac aatatgctag
+     1021 ctcagaggcc acaataagcc agctaaggag tgaacttgcc aaaggccccc aggaagttgc
+     1081 tgtatatgta caggaactac aaaaactgaa aagttcagtt aatgaattaa cacaaaaaaa
+     1141 tcagaccttg acagaaaact tgctgaaaaa agaacaagac tatactaagt tagaggagaa
+     1201 acataatgaa gaatctgtga gtaaaaagaa tattcaggca acccttcatc aaaaagacct
+     1261 agattgtcaa cagcttcagt caagattgtc tgcatctgaa acctcactgc atagaataca
+     1321 tgtagaacta agtgaaaaag gagaagctac tcaaaagctc aaagaagaat tatctgaggt
+     1381 agagaccaag taccagcatc taaaggcgga gtttaagcag ctacaacaac agagagaaga
+     1441 aaaggagcag catgggttac aactccaaag tgaaattaat caattacata gcaaacttct
+     1501 ggagacagag cgccaactag gggaagctca tggtaggctg aaggaacaga gacagctttc
+     1561 aagtgaaaag ttgatggata aagaacaaca agtggctgat ttacaactca aactttctcg
+     1621 gttagaagag cagttgaagg aaaaagttac aaattctaca gaattgcagc atcaattaga
+     1681 taaaacaaag caacagcatc aagaacaaca ggctcttcag caaagcacca cggcaaaact
+     1741 tcgagaagct cagaatgatt tggaacaagt tctacgtcaa attggcgata aggaccaaaa
+     1801 gatccagaac cttgaagctt tattacagaa gagtaaagaa aatatttcat tactagaaaa
+     1861 agaaagagaa gatctttatg caaaaattca ggctggtgaa ggagagactg ctgttcttaa
+     1921 ccagttacaa gaaaaaaacc atacactaca ggagcaagta actcaactaa cagagaagct
+     1981 gaagaatcag tcagaaagtc ataaacaagc ccaggagaat ttgcatgacc aggtacaaga
+     2041 gcagaaggca catcttagag ctgcacaaga ccgtgtcctt tccctagaaa ctagtgtcaa
+     2101 tgaattaaat agtcaattaa atgaaagcaa ggagaaggtc tcccagcttg acatacagat
+     2161 taaagccaaa accgaactat tactatcagc agaagcagca aaaactgctc aaagagctga
+     2221 tcttcagaat catttggaca cagctcaaaa tgcattacaa gataaacagc aggagttaaa
+     2281 taagattact actcagttgg atcaggtcac tgcaaagtta caagacaagc aagaacattg
+     2341 cagtcagctg gaaagtcatc ttaaagaata taaagagaaa tacctctctt tagaacagaa
+     2401 aaccgaagag ctagaaggtc aaattaagaa actagaagct gatagtcttg aagttaaagc
+     2461 aagcaaggag caggctttgc aagatctaca acagcaaaga cagctgaaca cagatttaga
+     2521 gctcagagcc acagaattga gtaaacaact tgaaatggaa aaggaaatag tatccagtac
+     2581 aagattggat ctacagaaaa aatctgaagc ccttgaaagt atcaagcaaa agcttaccaa
+     2641 gcaagaggaa gaaaaacaaa tcctgaaaca agattttgaa actttaagtc aagaaacaaa
+     2701 gattcagcat gaggaattga ataacagaat tcaaacaaca gtaacagaac tacaaaaagt
+     2761 gaaaatggag aaagaagctt taatgacaga gctttctaca gtaaaggaca aactatcaaa
+     2821 agtttctgat tctttgaaaa actctaaaag tgaatttgaa aaggagaatc agaaaggaaa
+     2881 agccgctata ttagacttgg aaaaaacttg caaagaatta aagcatcaac ttcaagtgca
+     2941 gatggaaaac acacttaagg aacagaagga actgaaaaag tcacttgaaa aagagaagga
+     3001 ggcttctcat cagttgaaat tggaactcaa ttcaatgcag gaacaactta tacaggccca
+     3061 gaatacttta aaacaaaatg aaaaagaaga gcaacaactt caggggaaca taaatgagct
+     3121 aaagcaatca agtgaacaga agaaaaaaca aattgaagca ctccaaggag agcttaaaat
+     3181 tgctgtttta cagaagacag agcttgagaa taaactacag cagcagttaa cacaggcagc
+     3241 ccaggaactt gcagcagaga aagagaaaat atcagtatta caaaacaact atgaaaaaag
+     3301 tcaggaaact ttcaaacagc ttcaatctga tttctatggg agggaatctg aacttctagc
+     3361 caccaggcaa gatcttaagg caaatgactc actgcagatt gaggaatgag aaacagggct
+     3421 gaatctgaag accagaagac tttgcagtag tctaagtgca agacgatggt ggtgtgggct
+     3481 ggtaatagca aggatggaga aaagtggatg aatttgaagg atatttaaat gatagaagag
+     3541 atgaaactta atgtttgatt ggaaaagtct tatagaaatc acactctttc catatggatg
+     3601 tcatttaccc aaagcataag ctagtaacag gaaccaacat taaattaatc aatgttaatt
+     3661 g
+//
+
+LOCUS       LC932399                1782 bp    mRNA    linear   PRI 22-MAY-2026
+DEFINITION  Homo sapiens DOHH mRNA for deoxyhypusine hydroxylase, complete cds,
+            clone: HP07643-RBdS015C05.
+ACCESSION   LC932399
+VERSION     LC932399.1
+KEYWORDS    FLI_CDNA.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Oshikawa,M., Tsutsui,C., Ikegami,T., Fuchida,Y., Matsubara,M.,
+            Toyama,S., Usami,R., Ohtoko,K. and Kato,S.
+  TITLE     Full-length transcriptome analysis of human retina-derived cell
+            lines ARPE-19 and Y79 using the vector-capping method
+  JOURNAL   Invest Ophthalmol Vis Sci 52 (9), 6662-6670 (2011)
+   PUBMED   21697133
+  REMARK    DOI:10.1167/iovs.11-7479
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1782)
+  AUTHORS   Murata,T., Iida,T., Sasanuma,S. and Miwa,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2026) Contact:Takehide Murata RIKEN, Bioresource
+            Research Center; 3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074, Japan
+            URL :https://dna.brc.riken.jp
+COMMENT     The cDNA clone was deposited at the RIKEN BioResource Center by
+            Seishi Kato of the National Rehabilitation Center for Persons with
+            Disabilities (NRCD), and its complete nucleotide sequence was
+            determined by the RIKEN BioResource Center.
+            For cDNA clones and library availability, please contact RIKEN
+            BioResource Research Center.
+            E-mail: dnabank.brc@riken.jp
+            URL:https://dna.brc.riken.jp/
+FEATURES             Location/Qualifiers
+     source          1..1782
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /clone="HP07643-RBdS015C05"
+                     /cell_line="Y79"
+                     /cell_type="retinoblastoma"
+                     /geo_loc_name="missing: lab stock"
+                     /collection_date="missing: lab stock"
+                     /note="full-length Y79 cDNA library prepared with the
+                     vector-capping method using pGCAP10"
+     gene            1..1782
+                     /gene="DOHH"
+     CDS             208..1116
+                     /gene="DOHH"
+                     /codon_start=1
+                     /product="deoxyhypusine hydroxylase"
+                     /protein_id="BHW31562.1"
+                     /translation="MVTEQEVDAIGQTLVDPKQPLQARFRALFTLRGLGGPGAIAWIS
+                     QAFDDDSALLKHELAYCLGQMQDARAIPMLVDVLQDTRQEPMVRHEAGEALGAIGDPE
+                     VLEILKQYSSDPVIEVAETCQLAVRRLEWLQQHGGEPAAGPYLSVDPAPPAEERDVGR
+                     LREALLDESRPLFERYRAMFALRNAGGEEAALALAEGLHCGSALFRHEVGYVLGQLQH
+                     EAAVPQLAAALARCTENPMVRHECAEALGAIARPACLAALQAHADDPERVVRESCEVA
+                     LDMYEHETGRAFQYADGLEQLRGAPS"
+ORIGIN      
+        1 gtccggcacg gtcacgtggg cgagaaaatg gcggccccca gaccgcactg cgggcgtcgc
+       61 ggcaggtgaa gcggtggtgg cagaggcgcc tgcggttact ggccgggccg acgggtcctg
+      121 agtctccaga gctcggttct tacatccccg cgtccccagg tttagcctga gcagggttgt
+      181 ggaaggccgg gacccattga cagcacgatg gtgacggagc aggaggtgga tgccatcggg
+      241 cagacgctgg tggaccccaa gcagcccctg caggcccgct tccgggcgct gttcacgctg
+      301 cgtgggctcg gcggcccagg cgccattgca tggatcagcc aggccttcga tgacgattcc
+      361 gccctgctca agcacgagct ggcctactgc ctgggccaga tgcaggatgc ccgcgccatc
+      421 cccatgctgg tggacgtgct gcaagacacc cgtcaggagc ccatggtgcg ccatgaggca
+      481 ggggaggccc tgggggccat cggggacccg gaagttctgg agatcctgaa gcagtattcc
+      541 tcggaccccg tcatcgaggt ggccgagacc tgccagctgg ccgtgcgcag gctggagtgg
+      601 ctgcagcagc acggcgggga gccggcggcg ggaccctacc tctccgtgga ccctgccccg
+      661 ccggctgagg agcgtgacgt ggggcgcctg cgggaggcgc tgctggatga gtcccggccg
+      721 ctcttcgagc gataccgcgc catgttcgcc ctgcgcaacg cgggaggcga ggaggccgcc
+      781 ctggcgctgg ccgagggtct gcactgtggg agcgccctct tccgccacga ggtcggctac
+      841 gtcctgggac agctgcagca cgaggcggcg gtgccccagc tggcggccgc cctggcccga
+      901 tgcaccgaga accccatggt gcggcacgag tgcgcggagg ccctgggcgc cattgcccgg
+      961 cccgcctgcc tggccgcgct gcaggctcac gcggacgacc cagagcgcgt ggtgcgtgag
+     1021 agctgcgagg tggctctgga catgtatgag cacgagaccg ggcgggcctt ccagtacgcg
+     1081 gacggcctgg agcagctgcg cggggccccc tcctagggcc ccaccctcac ccggagctcc
+     1141 cggaggactc ttgagggccg ctcctccccc gcagagcttt ggcgtctaaa ccgggtgtgt
+     1201 gtaaatcggt gtcatcgctt gtgtcttgct gggcgcatgg ttgctgtccc cctcctccgt
+     1261 ctgggaccga ggagctgccg ttgtgctgtg actccctgag tcccctgact gctcctcggg
+     1321 gcctggcgca gggctgtagc gtggaagttt ccaggcttgg ggtgggactc tgcgggaggc
+     1381 tctgggatgc ccggctcagg acaggggagg attgcgaggg aagccagggg aggatcgcga
+     1441 gggaagccag gggaggatcg cgagggaagc caggggagga tcgcgaggga agccagggga
+     1501 ggatcgcgag ggaagccaag ggaggatcgc gaggggagcc aggggaggat cgcgagggaa
+     1561 gccaggggca gagctggggc tctgggaaga ggctgacgtt atggtggctt cagcttcact
+     1621 aggaatggga cacagggtct gggggcctct gactccccca ccccgaggcc tgggtaggga
+     1681 cagggtggtg gtccctgagt gggtcaggta gggcacaggg gccagggagg gacaagcaga
+     1741 cctcagagcg ctgcccagat ggaatattaa attatttttg cc
+//
+
+LOCUS       LC922439                5363 bp    mRNA    linear   PRI 22-MAY-2026
+DEFINITION  Homo sapiens ARPE-19 DAG1 mRNA for dystroglycan 1, complete cds,
+            clone: HP06431-ARi05C07.
+ACCESSION   LC922439
+VERSION     LC922439.1
+KEYWORDS    FLI_CDNA.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Oshikawa,M., Tsutsui,C., Ikegami,T., Fuchida,Y., Matsubara,M.,
+            Toyama,S., Usami,R., Ohtoko,K. and Kato,S.
+  TITLE     Full-length transcriptome analysis of human retina-derived cell
+            lines ARPE-19 and Y79 using the vector-capping method
+  JOURNAL   Invest Ophthalmol Vis Sci 52 (9), 6662-6670 (2011)
+   PUBMED   21697133
+  REMARK    DOI:10.1167/iovs.11-7479
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 5363)
+  AUTHORS   Murata,T., Iida,T., Sasanuma,S. and Miwa,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAR-2026) Contact:Takehide Murata RIKEN, Bioresource
+            Research Center; 3-1-1 Koyadai, Tsukuba, Ibaraki 305-0074, Japan
+            URL :https://dna.brc.riken.jp
+COMMENT     The cDNA clone was deposited at the RIKEN BioResource Center by
+            Seishi Kato of the National Rehabilitation Center for Persons with
+            Disabilities (NRCD), and its complete nucleotide sequence was
+            determined by the RIKEN BioResource Center.
+            For cDNA clones and library availability, please contact RIKEN
+            BioResource Research Center.
+            E-mail: dnabank.brc@riken.jp
+            URL:https://dna.brc.riken.jp/
+FEATURES             Location/Qualifiers
+     source          1..5363
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /clone="HP06431-ARi05C07"
+                     /cell_line="ARPE-19"
+                     /cell_type="retinal pigment epithelium"
+                     /geo_loc_name="missing: lab stock"
+                     /collection_date="missing: lab stock"
+                     /note="full-length ARPE-19 cDNA library prepared with the
+                     vector-capping method using pGCAP10"
+     gene            1..5363
+                     /gene="DAG1"
+     CDS             262..2949
+                     /gene="DAG1"
+                     /codon_start=1
+                     /product="dystroglycan 1"
+                     /protein_id="BHS42349.1"
+                     /translation="MRMSVGLSLLLPLWGRTFLLLLSVVMAQSHWPSEPSEAVRDWEN
+                     QLEASMHSVLSDLHEAVPTVVGIPDGTAVVGRSFRVTIPTDLIASSGDIIKVSAAGKE
+                     ALPSWLHWDSQSHTLEGLPLDTDKGVHYISVSATRLGANGSHIPQTSSVFSIEVYPED
+                     HSELQSVRTASPDPGEVVSSACAADEPVTVLTVILDADLTKMTPKQRIDLLHRMRSFS
+                     EVELHNMKLVPVVNNRLFDMSAFMAGPGNAKKVVENGALLSWKLGCSLNQNSVPDIHG
+                     VEAPAREGAMSAQLGYPVVGWHIANKKPPLPKRVRRQIHATPTPVTAIGPPTTAIQEP
+                     PSRIVPTPTSPAIAPPTETMAPPVRDPVPGKPTVTIRTRGAIIQTPTLGPIQPTRVSE
+                     AGTTVPGQIRPTMTIPGYVEPTAVATPPTTTTKKPRVSTPKPATPSTDSTTTTTRRPT
+                     KKPRTPRPVPRVTTKVSITRLETASPPTRIRTTTSGVPRGGEPNQRPELKNHIDRVDA
+                     WVGTYFEVKIPSDTFYDHEDTTTDKLKLTLKLREQQLVGEKSWVQFNSNSQLMYGLPD
+                     SSHVGKHEYFMHATDKGGLSAVDAFEIHVHRRPQGDRAPARFKAKFVGDPALVLNDIH
+                     KKIALVKKLAFAFGDRNCSTITLQNITRGSIVVEWTNNTLPLEPCPKEQIAGLSRRIA
+                     EDDGKPRPAFSNALEPDFKATSITVTGSGSCRHLQFIPVVPPRRVPSEAPPTEVPDRD
+                     PEKSSEDDVYLHTVIPAVVVAAILLIAGIIAMICYRKKRKGKLTLEDQATFIKKGVPI
+                     IFADELDDSKPPPSSSMPLILQEEKAPLPPPEYPNQSVPETTPLNQDTMGEYTPLRDE
+                     DPNAPPYQPPPPFTAPMEGKGSRPKNMTPYRSPPPYVPP"
+ORIGIN      
+        1 gaaggctgcg gcgcggcgct cgcgcctctt aggcttggcg gtggcggcgg cggcagcttc
+       61 gcgccgaatc cccggggagc ggcggtggcg gcgtcctggg gccaggagga gcgaacacct
+      121 gccgcagtcc tcccgccggc gctgggctct gtgtgctccg ggatggagca ggtgtgcaga
+      181 gggtgagaac ccagctctgg gaccaagtca cttgcttcct tacttagcaa gactatcgac
+      241 ttgagcaaac ttggacctgg gatgaggatg tctgtgggcc tctcgctgct gctgcccctc
+      301 tgggggagga cctttctcct cctgctctct gtggttatgg ctcagtccca ctggcccagt
+      361 gaaccctcag aggctgtcag ggactgggaa aaccagcttg aggcatccat gcactcagtg
+      421 ctctcagacc tccacgaggc tgttcccaca gtggttggca ttcctgatgg cacggctgtc
+      481 gtcgggcgct catttcgagt gaccattcca acagatttga ttgcctccag tggagatatc
+      541 atcaaggtat cagcggcagg gaaggaggct ttgccatctt ggctgcactg ggactcacag
+      601 agccacaccc tggagggcct cccccttgac actgataagg gtgtgcatta catttcagtg
+      661 agcgctacac ggctgggggc caacgggagc cacatccccc agacctccag tgtgttctcc
+      721 atcgaggtct accctgaaga ccacagtgag ctgcagtcgg tgaggacagc ctccccagac
+      781 cctggtgagg tggtatcatc tgcctgtgct gcggatgaac ctgtgactgt tttgacggtg
+      841 attttggatg ccgacctcac caagatgacc ccaaagcaaa ggattgacct cctgcacagg
+      901 atgcggagct tctcagaagt agagcttcac aacatgaaat tagtgccggt ggtgaataac
+      961 agactatttg acatgtcggc cttcatggct ggcccgggaa atgcaaaaaa ggtggtggag
+     1021 aatggggccc ttctctcctg gaagctgggc tgctccctga accagaacag tgtgcctgac
+     1081 attcatggtg tagaggcccc tgccagggag ggcgcaatgt ctgctcagct tggctaccct
+     1141 gtggtgggtt ggcacatcgc caataagaag ccccctcttc ccaaacgcgt ccggaggcag
+     1201 atccatgcta cacccacacc tgtcactgcc attgggcccc caaccacggc tatccaggag
+     1261 cccccatcca ggatcgtgcc aacccccaca tctccagcca ttgctcctcc aacagagacc
+     1321 atggctcctc cagtcaggga tcctgttcct gggaaaccca cggtcaccat ccggactcga
+     1381 ggcgccatta ttcaaacccc aaccctaggc cccatccagc ctactcgggt gtcagaagct
+     1441 ggcaccacag ttcctggcca gattcgccca acgatgacca ttcctggcta tgtggagcct
+     1501 actgcagttg ctacccctcc cacaaccacc accaagaagc cacgagtatc cacaccaaaa
+     1561 ccagcaacgc cttcaactga ctccaccacc accacgactc gcaggccaac caagaaacca
+     1621 cggacacccc ggccagtgcc ccgggtcacc accaaagttt ccatcaccag attggaaact
+     1681 gcctcaccgc ctactcgtat tcgcaccacc accagtggag tgccccgtgg cggagaaccc
+     1741 aaccagcgcc cagagctcaa gaaccatatt gacagggtag atgcctgggt tggcacctac
+     1801 tttgaggtga agatcccgtc agacactttc tatgaccatg aggacaccac cactgacaag
+     1861 ctgaagctga ccctgaaact gcgggagcag cagctggtgg gcgagaagtc ctgggtacag
+     1921 ttcaacagca acagccagct catgtatggc cttcccgaca gcagccacgt gggcaaacac
+     1981 gagtatttca tgcatgccac agacaagggg ggcctgtcgg ctgtggatgc cttcgagatc
+     2041 cacgtccaca ggcgccccca aggggatagg gctcctgcaa ggttcaaggc caagtttgtg
+     2101 ggtgacccgg cactggtgtt gaatgacatc cacaagaaga ttgccttggt aaagaaactg
+     2161 gccttcgcct ttggagaccg aaactgtagc accatcaccc tgcagaatat cacccggggc
+     2221 tccatcgtgg tggaatggac caacaacaca ctgcccttgg agccctgccc caaggagcag
+     2281 atcgctgggc tgagccgccg gatcgctgag gatgatggaa aacctcggcc tgccttctcc
+     2341 aacgccctag agcctgactt taaggccaca agcatcactg tgacgggctc tggcagttgt
+     2401 cggcacctac agtttatccc tgtggtacca cccaggagag tgccctcaga ggcgccgccc
+     2461 acagaagtgc ctgacaggga ccctgagaag agcagtgagg atgatgtcta cctgcacaca
+     2521 gtcattccgg ccgtggtggt cgcagccatc ctgctcattg ctggcatcat tgccatgatc
+     2581 tgctaccgca agaagcggaa gggcaagctt acccttgagg accaggccac cttcatcaag
+     2641 aagggggtgc ctatcatctt tgcagacgaa ctggacgact ccaagccccc accctcctcc
+     2701 agcatgccac tcattctgca ggaggagaag gctcccctac cccctcctga gtaccccaac
+     2761 cagagtgtgc ccgagaccac tcctctgaac caggacacca tgggagagta cacgcccctg
+     2821 cgggatgagg atcccaatgc gcctccctac cagcccccac cgcccttcac agcacccatg
+     2881 gagggcaagg gctcccgtcc caagaacatg accccatacc ggtcacctcc tccctatgtc
+     2941 ccaccttaac ccgcaagcgc ctgggtggag gcagggtagg gcaggggcct ggagacgaca
+     3001 tggtgttgtc tgtggagacc ggtggcctgc agaccattgc ccaccgggag ccgacacctg
+     3061 acctagcaca cactgacaca ggggcctgga caagcccgcc ctctctggtc ctcccaaacc
+     3121 ccaaagcagc tggagagact ttggggactt ttttattttt attttttgcc taacagcttt
+     3181 tggtttgttc atagagaact cttcgcttca tttttgatgg ctggctctga aagcaccatg
+     3241 tggagtggag gtggagggag cgaggaacca tgaatgaact cgcaggcagt gccgggcggc
+     3301 cccctggctc tctgcgtttt gcctttaaca ctaactgtac tgttttttct attcacgtgt
+     3361 gtctagctgc aggatgtaac atggaaaaca gtaactaaag attaaattca aaggactttc
+     3421 agaagttaag gttaagtttt tacgtttaat ctgctgttta cctaaacttg tatgtataat
+     3481 ttttgggtgg gtatggggaa ttgctttgct aaaaataagc tcccagggtg tttcaaactt
+     3541 agagaagacc aagggacagt attttttatc aaaggaatac tattttttca cactacgtca
+     3601 acttggttgc tctgataccc cagagcctga ttgggggcct cccggccctg gctcacgcca
+     3661 agtccctggt gctgggtttg ctctcccgct gttgccaggg gctggaagct ggaggggtct
+     3721 cttgggccat ggacatcccc acttccagcc catgtacact agtggcccac gaccaagggg
+     3781 tcttcatttc catgaaaaag ggactccaag aggcagtggt ggctgtggcc cccaactttg
+     3841 gtgctccagg gtgggccagc tgcttgtggg ggcacctggg aggtcaaagg tctccaccac
+     3901 atcaacctat tttgttttac cctttttctg tgcattgttt ttttttttcc tcctaaaagg
+     3961 aatatcacgg ttttttgaaa cactcagtgg gggacatttt ggtgaagatg caatattttt
+     4021 atgtcatgtg atgctctttc ctcacttgac cttggccgct ttgtcctaac agtccacagt
+     4081 cctgccccga cccaccccat cccttttctc tggcactcca gtcccaggcc ttgggcctga
+     4141 actactggaa aaggtctggc ggctggggag gagtgccagc aatagttcat aataaaaatc
+     4201 tgttagctct caaagctaat tttttactaa agtttttata cagcctcaaa ttgttttatt
+     4261 aaaaaaaaga tttaaaatgg tgatgcttac agcagtttgt acgagctctt aagtgttgat
+     4321 tccatggaac tgacggcttt gcttgttttg attcttttcc ccctactttt cctaatggtt
+     4381 taaattctgg aattacactg gggttctttt gcctttttta gcagaacatc cgtccgtcca
+     4441 tctgcatctc tgtcccatga ctcaggggcg cccactctgc ttcgattctc ctcctgtgga
+     4501 agaaaccatt ttgagcatga cttttcttga tgtctgaagc gttattttgg gtacttttta
+     4561 gggaggaatg cctttcgcaa taatgtatcc attccctgat tgagggtggg tgggtggacc
+     4621 caggctccct ttgcacacag agcagctact tctaagccat atcgactgtt ttgcagagga
+     4681 tttgtgtgtg ctgcctcagg aggggagggc tggtaggagg gggggagagg tctctgtcct
+     4741 actgctctcc agagggcatt tccccttgcg ccttctccca cagggcccag cccctctccc
+     4801 ctgccccagt ccccaggggg tactctggag tgagcagtgc ccctgtgggg gagcctgtaa
+     4861 atgcgggctc agtggaccac tggtgactgg gctcatgcct ccaagtcaga gtttccctgg
+     4921 tgccccagag acaggagcac aagtgggatc tgacctggtg agattatttc tgatgacctc
+     4981 atcaaaaaat aaacaattcc caatgttcca ggtgagggct ttgaaaggcc ttccaaacag
+     5041 ctccgtcgcc cctagcaact ccaccattgg gcactgccat gcagagacgt ggctggccca
+     5101 gaatggcctg ttgccatagc aactggaggc gatggggcag tgaacagaat aacaacagca
+     5161 acaatgcctt tgcaggcagc ctgctcccct gagcgctggg ctggtgatgg ccgttggact
+     5221 ctgtgagatg gagagccaat ctcacattca agtgttcacc aaccactgat gtgtttttat
+     5281 ttccttctat atgattttaa gatgtgtttt ctgcattctg taaagaaaca tatcaaacta
+     5341 aataaaagca gtgtctttat tac
+//
+
+LOCUS       PX511321                 921 bp    mRNA    linear   PLN 26-JAN-2026
+DEFINITION  Brassica oleracea var. alboglabra PSY1 protein (PSY1) mRNA,
+            complete cds.
+ACCESSION   PX511321
+VERSION     PX511321.1
+KEYWORDS    .
+SOURCE      Brassica oleracea var. alboglabra (Chinese kale)
+  ORGANISM  Brassica oleracea var. alboglabra
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Brassiceae; Brassica.
+REFERENCE   1  (bases 1 to 921)
+  AUTHORS   Zhang,C., Luo,S., Wang,M., Luo,M., Wang,Y., Liang,Q., Chen,Z.,
+            Escalona,V.H., Yu,X., Liang,K., Huang,Z., Li,H., Zhang,F., Tang,Y.
+            and Sun,B.
+  TITLE     The BoaORHis-BoaPSY2 complex simultaneously enhances preharvest
+            pigment accumulation and delays postharvest yellowing in Chinese
+            kale
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 921)
+  AUTHORS   Zhang,C., Luo,S., Wang,M., Luo,M., Wang,Y., Liang,Q., Chen,Z.,
+            Escalona,V.H., Yu,X., Liang,K., Huang,Z., Li,H., Zhang,F., Tang,Y.
+            and Sun,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-2025) College of Horticulture, Sichuan
+            Agricultural University, Huimin Road 211, Chengdu, Sichuan 611130,
+            China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..921
+                     /organism="Brassica oleracea var. alboglabra"
+                     /mol_type="mRNA"
+                     /variety="alboglabra"
+                     /db_xref="taxon:3714"
+     gene            1..921
+                     /gene="PSY1"
+                     /note="BoaPSY1"
+     CDS             1..921
+                     /gene="PSY1"
+                     /codon_start=1
+                     /product="PSY1 protein"
+                     /protein_id="YCO12456.1"
+                     /translation="MSCLGRILSVSYPPDPSGSRLSVSKLSSSPGRNRRLRWRFTALD
+                     SDSSSLDSDSSDKFAAGFCIIEGPETVQDFAKMQLQEIQDNIRSRRNKIFLHMEEVRR
+                     LRIQQRIRNTELGIIDEEQEHELPNFPSFIPFLPPLTAANLRVYYATCFSLIAGIILF
+                     GGLLAPTLELKLGIGGTSYKDFIQSLHLPMQLSQVDPIVASFSGGAVGVISALMVVEV
+                     NNVKQQEHKRCKYCLGTGYLACARCSSTGSLIISEPVSAIAGGNHSVSTSKTERCSNC
+                     SGAGKVMCPTCLCTGVAMASEHDPRIDPFL"
+ORIGIN      
+        1 atgtcttgtt tgggtaggat cttgtctgtt tcctacccac ctgatccttc cggttcgcgt
+       61 ctttcagtgt caaagctgtc ttcttcacca gggagaaacc gaaggctgag atggcgtttc
+      121 acggccttgg actcagactc ttcctccctc gattctgatt cctccgacaa attcgctgcc
+      181 ggcttttgta tcatagaagg acctgaaaca gtacaggact ttgccaaaat gcaattacaa
+      241 gagattcaag acaacattag aagccgtcga aacaagatct tcttgcacat ggaagaggta
+      301 cggaggctaa gaatacaaca acggattaga aacacagagc ttggaatcat agacgaagag
+      361 caagaacacg aactacctaa cttcccctcc ttcatcccat tcttacctcc attgactgct
+      421 gccaatttga gagtctatta cgcaacttgc ttctcactca ttgctgggat tatcctcttc
+      481 ggtggcctac tagctcctac tctagagctg aagctaggta tagggggcac atcatataaa
+      541 gatttcattc aaagccttca tctacctatg caattgagtc aagtagaccc aatagtggcg
+      601 tcattctctg gaggagctgt tggtgtgatc tcagctttga tggtagttga agttaacaac
+      661 gtgaagcagc aagagcacaa gagatgcaaa tactgtctag gaactgggta tctagcatgt
+      721 gcccgttgct ctagcacagg ttctcttatt atatctgaac cagtctcagc tattgctgga
+      781 gggaaccatt ctgtatcaac atccaaaacc gaaagatgtt caaactgttc tggtgctgga
+      841 aaggtgatgt gtccgacatg tctgtgcaca ggagtggcta tggctagcga gcacgaccct
+      901 cgtattgatc ccttcctttg a
+//
+
+LOCUS       PX511320                1269 bp    mRNA    linear   PLN 26-JAN-2026
+DEFINITION  Brassica oleracea var. alboglabra PSY3 protein (PSY3) mRNA,
+            complete cds.
+ACCESSION   PX511320
+VERSION     PX511320.1
+KEYWORDS    .
+SOURCE      Brassica oleracea var. alboglabra (Chinese kale)
+  ORGANISM  Brassica oleracea var. alboglabra
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Brassiceae; Brassica.
+REFERENCE   1  (bases 1 to 1269)
+  AUTHORS   Zhang,C., Luo,S., Wang,M., Luo,M., Wang,Y., Liang,Q., Chen,Z.,
+            Escalona,V.H., Yu,X., Liang,K., Huang,Z., Li,H., Zhang,F., Tang,Y.
+            and Sun,B.
+  TITLE     The BoaORHis-BoaPSY2 complex simultaneously enhances preharvest
+            pigment accumulation and delays postharvest yellowing in Chinese
+            kale
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1269)
+  AUTHORS   Zhang,C., Luo,S., Wang,M., Luo,M., Wang,Y., Liang,Q., Chen,Z.,
+            Escalona,V.H., Yu,X., Liang,K., Huang,Z., Li,H., Zhang,F., Tang,Y.
+            and Sun,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-2025) College of Horticulture, Sichuan
+            Agricultural University, Huimin Road 211, Chengdu, Sichuan 611130,
+            China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1269
+                     /organism="Brassica oleracea var. alboglabra"
+                     /mol_type="mRNA"
+                     /variety="alboglabra"
+                     /db_xref="taxon:3714"
+     gene            1..1269
+                     /gene="PSY3"
+                     /note="BoaPSY3"
+     CDS             1..1269
+                     /gene="PSY3"
+                     /codon_start=1
+                     /product="PSY3 protein"
+                     /protein_id="YCO12455.1"
+                     /translation="MSSVAVLWVAASSPNPDPMNTCGLVRALESSRVLSRCQNQRVNN
+                     GRRNQTTQTTWSSSSSVMSFRRRRRSSVVSSSLVAHPAGEIDLSSEEKVYNVVLRQAA
+                     LVNKQLRSTSPVLDDVKKPQDIVRPGSLSLLGEAYDRCGEVCAEYAKTFYLGTLLMTP
+                     ERRKAIWAIYVWCRRTDELVDGPNASHITPMALDRWEARLEDLFHGRAFDMLDAALAD
+                     TVTRYPVDIQPFRDMIEGMRMDLRKSRYNNFDELYLYCYYVAGTVGLMSVPVMGINPK
+                     SKATTESVYNAALALGIANQLTNILRDVGEDARRGRVYLPQDELAQAGLSDEDIFAGK
+                     VTDKWRNFMRLQLKRARMFFDEAEKGVTELDAASRWPVWASLLLYRRILDEIEANDYN
+                     NFTKRAYVGKVKKIAALPLAYAKSVVKVSS"
+ORIGIN      
+        1 atgtcttctg tagcagtgtt atgggttgct gcttcttctc caaatccaga cccaatgaac
+       61 acttgtgggt tggtacgggc tttagaatct tctagagtgc tctctcgttg tcagaatcag
+      121 agagtgaaca atggtaggag gaaccaaaca acacaaacta cttggagttc ttcttcttct
+      181 gtaatgagct ttagaagaag aagaagaagt agtgttgtct cttcaagctt agtagcacat
+      241 cctgcaggag agatagacct ctcatctgaa gagaaggttt acaatgttgt gttgagacaa
+      301 gcagctttgg tgaacaaaca gcttaggtct acttctcctg ttcttgacga tgtgaagaaa
+      361 ccacaggata ttgttcgtcc tgggagtttg agcttgttgg gtgaagctta tgatcgatgc
+      421 ggcgaagttt gtgctgaata tgccaaaacg ttttatcttg gaactttgct tatgacaccc
+      481 gagaggagaa aggcgatttg ggctatctat gtttggtgca gaagaactga tgaactggta
+      541 gatgggccga atgcatcaca tataactccc atggcgttag atagatggga agcaaggtta
+      601 gaagatcttt ttcatggccg tgctttcgat atgcttgacg ctgctctagc tgatacagtt
+      661 actagatacc ctgtagatat tcagccattt agagacatga ttgaaggaat gagaatggat
+      721 ttgaggaagt ctagatacaa caactttgat gagctctacc tttactgcta ctatgtcgcc
+      781 ggaactgtcg gtttgatgag cgttccggtt atgggaatca atcccaagtc caaggcaacg
+      841 accgagagtg tttacaacgc tgccttggcc ctcggtatag ccaatcagct taccaacata
+      901 ctcagggacg ttggtgaaga tgcaagaaga ggaagagttt atctaccaca agatgagtta
+      961 gctcaggctg gtctctccga tgaagacata ttcgctggaa aagtcactga taaatggaga
+     1021 aacttcatga gactgcagct taagagagca agaatgttct tcgacgaagc tgagaaaggt
+     1081 gtcaccgagc ttgacgctgc tagcagatgg ccagtatggg catcgctact attgtatagg
+     1141 agaatattgg acgagattga agcgaatgat tacaacaact ttaccaagag agcttatgtt
+     1201 gggaaagtta agaaaattgc agctcttcca ttagcttatg ctaaatcagt agtaaaggtt
+     1261 tcaagttaa
+//
+
+LOCUS       PP681123                1518 bp    mRNA    linear   PLN 18-JAN-2026
+DEFINITION  Brassica oleracea var. italica methylthioalkylmalate synthase 1
+            (MAM1) mRNA, complete cds.
+ACCESSION   PP681123
+VERSION     PP681123.1
+KEYWORDS    .
+SOURCE      Brassica oleracea var. italica (broccoli)
+  ORGANISM  Brassica oleracea var. italica
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Brassiceae; Brassica.
+REFERENCE   1  (bases 1 to 1518)
+  AUTHORS   Wu,Q., Mao,S., Huang,H., Liu,J., Chen,X., Hou,L., Tian,Y.,
+            Zhang,J., Wang,J., Wang,Y. and Huang,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2024) College of Horticulture, Hunan Agricultural
+            University, No. 1, Nongda Road, Furong District, Changsha, Hunan
+            410128, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1518
+                     /organism="Brassica oleracea var. italica"
+                     /mol_type="mRNA"
+                     /variety="italica"
+                     /db_xref="taxon:36774"
+     gene            1..1518
+                     /gene="MAM1"
+     CDS             1..1518
+                     /gene="MAM1"
+                     /codon_start=1
+                     /product="methylthioalkylmalate synthase 1"
+                     /protein_id="XMH26160.1"
+                     /translation="MASSLLTSSGIIPTTSSNMVVRSFLPFGSVRLTRPYNKSSLLIS
+                     CCSSVSKKAETSGTDLKTVVERWPEYIPNKLPDKNYVRVFDTTLRDGEQSPGAALTPP
+                     QKIEIARQLAKLRVDIMEVGFPVSSEEEFETIKTIAKTVGNEVDEETGYIPVICVIAR
+                     SKERDIKAAWESVKYAKRPRIVIFTSTSDIHLKYKLKMTREEVVEMVASSIRFAKSLG
+                     FEDIEFGCEDGGRSDKDYICKVFEEAIKAGATTLACPDTVGINMPHEYGKLVRYIKAN
+                     TPGIDDVIFSAHCHNDLGVATANTIAGICAGARQVEVTINGIGERSGNAPLEEVVMAL
+                     KCRGAFVMGGVYTRIDTRQIMATSKMVQEYTGLYVQPHKPIVGANCFVHESGIHQDGI
+                     LKNRSTYEILSPEDVGVVKSQNSGIVLGKLSGRHAVKGRLKELGYGISDEKLNEVFSR
+                     FRDLTKQKKRVTDDDLRALVTCGDEIFSSEKLNGTNDNEINRNGYVPSPQISSVV"
+ORIGIN      
+        1 atggcatcgt cacttctgac atcttccgga attatcccta ccaccagttc caacatggtt
+       61 gtccggtcat tcttaccctt tggatctgtc cgcctgaccc gtccgtacaa caagtcgtcc
+      121 ttgctcatct catgttgctc ctctgtgtcc aagaaggctg agactagtgg tactgacctc
+      181 aaaaccgttg tggaacggtg gccagagtat attccgaaca agctccccga caagaactac
+      241 gtgcgtgtat ttgatacgac gctccgtgac ggcgaacaat ctcccggtgc agcccttact
+      301 ccaccgcaga agatagagat tgcccggcag ctcgctaaac tcagagtaga catcatggaa
+      361 gttggttttc ccgtgtcatc agaggaagag ttcgaaacca tcaaaaccat cgccaaaacc
+      421 gtgggaaacg aggttgatga ggaaacaggt tatatcccag tgatatgcgt catcgcacga
+      481 agcaaagaaa gagatataaa ggcggcttgg gagtcagtga agtacgcaaa gaggccgagg
+      541 atagtcatat tcacttctac tagtgacatt cacttgaaat ataagttgaa aatgactaga
+      601 gaagaagtcg tcgagatggt cgcgagtagc attaggtttg ctaaaagttt aggcttcgaa
+      661 gacatcgagt ttggttgcga agatggcggc aggtccgaca aggattatat atgcaaggtt
+      721 tttgaagaag cgatcaaagc gggtgcaacc accctggcct gcccggacac ggtggggatc
+      781 aacatgccgc acgaatacgg gaaacttgtg agatacatca aagcaaacac tcctggaatt
+      841 gatgatgtta tcttcagcgc tcattgtcac aatgaccttg gtgttgctac cgccaacaca
+      901 atcgccggta tatgtgcggg agcacgacaa gtcgaagtaa caatcaatgg aataggtgaa
+      961 agaagtggga atgcaccgct tgaagaggtc gtgatggctt tgaaatgtcg aggagcattt
+     1021 gtgatgggtg gtgtttacac aagaatagac acacgccaaa ttatggctac cagcaagatg
+     1081 gttcaagaat atactggctt gtatgttcag ccacataaac ctatagttgg agccaactgt
+     1141 tttgttcatg agagcggcat tcaccaggat gggatattga aaaatcggag tacatatgag
+     1201 atcttatcac cagaagatgt tggagttgta aaatctcaaa attcaggcat tgttcttgga
+     1261 aagcttagtg gacgtcatgc ggttaaaggt cgtctgaaag agttgggata tggaatcagt
+     1321 gatgagaaac tgaacgaggt tttctcacgg ttcagagatt taaccaagca gaaaaagaga
+     1381 gtcacggatg atgatctaag ggcattagta acgtgtggtg atgaaatctt ctcctcagag
+     1441 aaattaaacg gcactaacga caacgaaatc aacagaaacg gctatgtacc gtctcctcag
+     1501 atttcctctg tggtatga
+//
+
+LOCUS       PX508302                1596 bp    mRNA    linear   PLN 19-NOV-2025
+DEFINITION  Brassica oleracea var. italica cystathionine beta-lyase mRNA,
+            complete cds.
+ACCESSION   PX508302
+VERSION     PX508302.1
+KEYWORDS    .
+SOURCE      Brassica oleracea var. italica (broccoli)
+  ORGANISM  Brassica oleracea var. italica
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Brassiceae; Brassica.
+REFERENCE   1  (bases 1 to 1596)
+  AUTHORS   Xiang,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-OCT-2025) college of Life and Environmental science,
+            Wenzhou University, Chashan High Education Park, Wenzhou, Zhejiang
+            325035, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1596
+                     /organism="Brassica oleracea var. italica"
+                     /mol_type="mRNA"
+                     /variety="italica"
+                     /db_xref="taxon:36774"
+                     /geo_loc_name="China: Heilongjiang Province"
+                     /collection_date="Jun-2025"
+     CDS             1..1596
+                     /note="BoCGS1"
+                     /codon_start=1
+                     /product="cystathionine beta-lyase"
+                     /protein_id="YBU77107.1"
+                     /translation="MAVLSFQSPTNFSASSIPGSSRRRFDSTAGSPSSFTGDGPISSM
+                     ILRFPPNFVRQLSIKARRNCSNIGVAQIVAAKWSNNPSSGLQSAAAAASSVSAAASAP
+                     PAAVPPPVVALNGVDEGVVAAEGAREIGLKKDSKPSFLSSDGSLTVHAGERLGRGIVT
+                     DAITTPVVNTSAYFFNKTADLLDFKEKRSVSFEYGRYGNPTTIVLEEKISALEGAEST
+                     LVMASGMCASTVMLLALVPTGGHIVTTTDCYRKTRIFMENFLPKMGITVTVIDPADIA
+                     GLEVAVNKYQVSLFFTESPTNPFLRCVDIELVSEICHKRGTLVCIDGTFATPLNQKAL
+                     AFGADLVVHSLTKYIGGHNDVLGGCICGPLKIVSEIRNLHHVLGGTLNPNAAYLMIRG
+                     MKTMHLRVQQQNSTASRMAEILEAHPKVSHVYYPGLASHPEHHIAKRQMTGFGGVVSF
+                     EIDGDIEGTIKFVDSLKIPYIAPSFGGCESIVDQPAIMSYWDLTQEERLKYGIKDNLV
+                     RFSFGVEDFEDVKADVLQALEAI"
+ORIGIN      
+        1 atggccgtct tgtcgttcca gagccctaca aacttctccg catcctccat ccccggctcg
+       61 tctcgccgcc gtttcgactc caccgccggc tcaccgtcgt cattcacggg agacggccct
+      121 atatcctcaa tgatcctgag gttccctccc aatttcgtcc gccagctcag catcaaagcc
+      181 cgcagaaact gcagcaacat cggcgtcgcg cagatcgtcg ccgccaagtg gtccaacaac
+      241 ccctcctccg gtttacagtc ggcggcggcg gcagcatcgt ctgtttccgc cgccgcctcg
+      301 gcccctccgg ccgccgtccc tcctcccgta gtcgcgctga atggcgtgga cgagggggtt
+      361 gtggcggccg agggagccag ggagataggg ttgaagaagg attcgaaacc ctcatttttg
+      421 agctccgatg ggagcctcac tgttcatgcc ggtgaaagat taggtcgtgg tatagtcacg
+      481 gatgcaatca ccactcctgt agtcaacaca tctgcctact tcttcaacaa aactgctgac
+      541 cttcttgact tcaaggagaa acggagtgtc agtttcgagt atggtcgtta tggcaacccg
+      601 accactatcg ttcttgagga gaagataagt gcacttgaag gtgctgaatc aaccttggtt
+      661 atggcttctg gaatgtgtgc aagcactgtt atgcttttgg ctttggttcc tactggtgga
+      721 cacattgtga ctactaccga ttgttaccgg aagactagaa tcttcatgga gaattttctt
+      781 cccaagatgg gcatcactgt cactgtgatt gatcctgctg atatcgccgg gcttgaagtt
+      841 gctgtgaata agtaccaagt ttctctgttc ttcactgagt caccgacaaa cccattcctt
+      901 agatgcgtcg acattgagct agtttcagaa atatgccaca agaggggaac tcttgtttgc
+      961 atcgatggca cctttgcaac acctctgaat cagaaagccc ttgcttttgg tgctgatctc
+     1021 gtcgtgcact ctcttacaaa gtacatcgga ggacacaacg atgttcttgg tggatgcatc
+     1081 tgtggcccac tgaagatagt ttcagaaatt cgcaatctgc atcatgtgtt gggaggcaca
+     1141 cttaatccga acgcagcgta cctaatgatc cgaggcatga agacaatgca tcttcgtgta
+     1201 cagcaacaga attcaactgc ctcaaggatg gccgaaattt tagaggcaca tcctaaggtg
+     1261 agtcatgtgt actatccagg ccttgcaagt catcccgagc atcacattgc caagcgacaa
+     1321 atgactggtt ttggaggtgt agtcagtttc gagattgatg gagacataga aggaacaata
+     1381 aagtttgtgg actctctcaa gattccttac atcgcaccat cttttggtgg ctgcgaaagc
+     1441 atcgtggacc aaccggccat catgtcttac tgggatctga cgcaggagga gaggctaaag
+     1501 tatggaatca aagacaattt ggttcgtttc agctttggag ttgaagactt tgaagatgtc
+     1561 aaagctgacg ttcttcaagc tctcgaggcc atctga
+//
+
+LOCUS       PQ569644                1758 bp    mRNA    linear   PLN 07-NOV-2025
+DEFINITION  Brassica oleracea var. italica sulfur limitation 1 mRNA, complete
+            cds.
+ACCESSION   PQ569644
+VERSION     PQ569644.1
+KEYWORDS    .
+SOURCE      Brassica oleracea var. italica (broccoli)
+  ORGANISM  Brassica oleracea var. italica
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Brassiceae; Brassica.
+REFERENCE   1  (bases 1 to 1758)
+  AUTHORS   Li,R., He,Y., Zhang,Q. and Li,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-NOV-2024) College of Life Sciences, Northeast
+            Agricultural University, Changjiang Road No. 600, Harbin City
+            150030, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1758
+                     /organism="Brassica oleracea var. italica"
+                     /mol_type="mRNA"
+                     /variety="italica"
+                     /db_xref="taxon:36774"
+     CDS             1..1758
+                     /note="BoSLIM1"
+                     /codon_start=1
+                     /product="sulfur limitation 1"
+                     /protein_id="XKB75878.1"
+                     /translation="MGGGDLALSVADIRMENEQPDDLASDTVAEIDVSDEEIDAEDLE
+                     RRMWKDRVRLKRIKERQKGDSQGPQAKEPPKKISDQAQRKKMSRAQDGILKYMLKLME
+                     VCKVRGFVYGIIPEKGKPVSGSSDNIRAWWKEKVKFDKNGPAAIAKYEEECLAFGKSD
+                     GNRNSQFVLQDLQDATLGSLLSSLMQHCDPPQRKYPLEKGTPPPWWPTGKEEWWVKLG
+                     LPQSQSPPYRKPHDLKKMWKVGVLTAVINHMSPDIAKIKRHVRQSKCLQDKMTAKESA
+                     IWLAVLNQEESLIQQPSSDNGTSNVTETHRRGNNADRRKTVINSDSDYDVDGTEEASG
+                     SVSSKDSRRNQVPAATSQQPVRDQDKAGKHKRRKRPRIRSGTLNVQDEEQVEAEGRNV
+                     LPDMNHVEAPMLDYNINGTTNHHEEGVLEPNISLGPEENGLELVVPEFDSNYTYLPPV
+                     DGQAMMPVDERPMLYGANPNQELQFGSGYNYYNTSAVFVHNQEEDLIHTQIEMNSQAP
+                     PHSNGFDGQGGVLQPHGNEEVGVAGRDMPPQFQSDQDKLLDSNILSPFNDLPFDSSTF
+                     YSGFDSFGAFDDDYSWFGA"
+ORIGIN      
+        1 atgggtgggg gcgatctagc tttgtccgtt gctgacatca ggatggagaa tgagcagcct
+       61 gatgacttgg ctagcgatac cgtcgctgag atcgatgtga gtgacgaaga gattgatgca
+      121 gaagacttag agagacgtat gtggaaagac cgagtcaggc tcaaaagaat caaagagcgt
+      181 caaaaaggag attctcaagg acctcaggcg aaggagcctc ccaagaagat ctctgaccaa
+      241 gcgcagagga agaagatgtc tagagcacaa gacggtatac tcaagtacat gctgaagcta
+      301 atggaagtct gcaaagtacg cggctttgtg tacggcatca tacctgaaaa aggtaagccg
+      361 gtgagcggct cctccgacaa tataagagct tggtggaaag agaaggtgaa gtttgataaa
+      421 aacggtcctg cagcgattgc taaatacgaa gaggagtgtt tggcgtttgg gaagtcagac
+      481 gggaatagaa actcgcagtt tgtgcttcaa gacttgcagg acgctactct agggtctttg
+      541 ttgtcttctt tgatgcagca ttgtgatcct ccgcagagga agtatccgtt ggagaaaggg
+      601 acgcctcctc cctggtggcc gacggggaag gaagagtggt gggtgaagct cggcttgccg
+      661 cagagccaga gtcctcctta caggaagcct catgatctca agaagatgtg gaaagttggg
+      721 gtgttgacgg ctgtgattaa ccatatgtct cctgatattg ctaagatcaa gaggcatgtt
+      781 cgtcagtcta agtgtttgca ggacaagatg acggcgaaag agagcgcgat ttggttggcg
+      841 gttttgaacc aggaggagtc gcttattcag cagccgagta gtgataatgg gacgtctaat
+      901 gtaactgaga cgcaccggag ggggaataac gctgacagga ggaagactgt gattaatagt
+      961 gatagtgatt atgatgttga tgggactgag gaggcttcag gctcggtttc ttctaaagac
+     1021 agtagaagaa atcaagttcc agcagccact tcacaacaac cagtaagaga tcaagataaa
+     1081 gctgggaaac ataagagaag gaaaagacct agaatcagat ccggaactct taatgtacaa
+     1141 gatgaagaac aagtagaagc tgaagggaga aatgttttac ctgatatgaa tcatgttgag
+     1201 gctcctatgc tagattataa catcaacggt actactaatc accatgagga aggtgtttta
+     1261 gaaccaaaca tctccttagg accagaagag aacggtctgg aactggtggt tcctgagttt
+     1321 gatagcaact atacttatct tcctcctgtt gatggacaag ctatgatgcc tgtagacgaa
+     1381 agaccaatgc tttacggagc aaaccccaac caggagctgc aatttgggtc aggttataac
+     1441 tactataata cttctgcagt gtttgtgcat aatcaggaag aagaccttat ccatacacag
+     1501 atagagatga actcacaagc accgcctcac agcaacgggt tcgatggcca aggaggagta
+     1561 cttcaacccc atgggaatga agaggtgggt gtagcaggaa gagatatgcc tcctcagttt
+     1621 cagagtgacc aagataaact cttggacagt aacatcctat ctccattcaa tgacttgccg
+     1681 tttgatagca gcacctttta ctctgggttt gattcctttg gtgcatttga tgatgactac
+     1741 tcatggtttg gagcttag
+//
+
